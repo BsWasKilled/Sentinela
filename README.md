@@ -30,42 +30,33 @@ O território monitorado é **Vale Verde**, um município fictício de 77,5 mil 
 
 | Nome completo | RM |
 |---|---|
-| [Bernardo Berwanger] | [RM565776] |
-| [João Vitor Angeloti Sena] | [RM563473] |
+| Bernardo Berwanger | RM565776 |
+| João Vitor Angeloti Sena | RM563473 |
 
 ## 3. Demonstração visual
 
-Todos os prints estão em `assets/screenshots/`.
+Todos os prints estão em `assets/screenshots/`. Telas longas têm um segundo print rolado.
 
-| Consentimento | Login | Cadastro |
-|:---:|:---:|:---:|
-| ![Consentimento](assets/screenshots/01_consentimento.png) | ![Login](assets/screenshots/02_login.png) | ![Cadastro](assets/screenshots/03_cadastro.png) |
-| Etapa obrigatória no primeiro uso: explica o que é coletado e para quê. | Conta local; a senha é guardada como hash com sal. | Validação de e-mail, força da senha e consentimento explícito. |
-
-| Início | Detalhe do alerta | Registrar alerta |
-|:---:|:---:|:---:|
-| ![Início](assets/screenshots/04_inicio.png) | ![Alerta](assets/screenshots/05_alerta.png) | ![Registrar](assets/screenshots/06_registrar.png) |
-| Alertas recentes, benefício social e atalhos para os painéis. | Evidências, confiança, limitações, ação sugerida e aviso de decisão humana. | GPS sugere a região, clima do momento sugere o tipo; relato anônimo. |
-
-| Painel Clima | Painel Recursos | Painel Serviços |
-|:---:|:---:|:---:|
-| ![Clima](assets/screenshots/07_painel_clima.png) | ![Recursos](assets/screenshots/08_painel_recursos.png) | ![Serviços](assets/screenshots/09_painel_servicos.png) |
-| Chuva, temperatura, umidade e vento com histórico de 30 dias e tendência. | Consumo de água e energia, litros por habitante e alertas de desperdício. | Relatos por região e tipo, com filtros, mapa e indicador de benefício social. |
-
-| Detalhe do indicador | Mapa | Histórico |
-|:---:|:---:|:---:|
-| ![Indicador](assets/screenshots/10_indicador.png) | ![Mapa](assets/screenshots/11_mapa.png) | ![Histórico](assets/screenshots/12_historico.png) |
-| Série de 30 dias, como a tendência é calculada e quando não confiar. | Marcadores por prioridade; toque abre o alerta. | Todos os alertas com filtro por região e tipo. |
-
-| Perfil | Configurações | Limiares |
-|:---:|:---:|:---:|
-| ![Perfil](assets/screenshots/13_perfil.png) | ![Configurações](assets/screenshots/14_configuracoes.png) | ![Limiares](assets/screenshots/15_limiares.png) |
-| Relatos registrados, datas de consentimento, sair e excluir conta. | Tema, tamanho do texto, fonte dos dados e opções de teste. | Formulário validado que recalcula os alertas na hora. |
-
-| Método | Tela larga | Alto contraste |
-|:---:|:---:|:---:|
-| ![Método](assets/screenshots/16_metodo.png) | ![Tablet](assets/screenshots/17_tablet.png) | ![Alto contraste](assets/screenshots/18_alto_contraste.png) |
-| Métricas, limitações, vieses e quando não confiar. | Conteúdo centralizado e grade com 3 colunas. | Tema de alto contraste para baixa visão. |
+| Tela | Prints | Descrição |
+|---|:---:|---|
+| **Consentimento** | <img src="assets/screenshots/01_consentimento.png" alt="Consentimento" width="220"> <img src="assets/screenshots/01b_consentimento.png" alt="Consentimento" width="220"> | Etapa obrigatória no primeiro uso: o que é coletado, para quê, e aceite explícito. |
+| **Login** | <img src="assets/screenshots/02_login.png" alt="Login" width="220"> | Conta local; a senha é guardada como hash com sal. |
+| **Cadastro** | <img src="assets/screenshots/03_cadastro.png" alt="Cadastro" width="220"> | Validação de e-mail, força da senha e consentimento. |
+| **Início** | <img src="assets/screenshots/04_inicio.png" alt="Início" width="220"> <img src="assets/screenshots/04b_inicio.png" alt="Início" width="220"> | Aviso de decisão humana, alertas recentes, benefício social e atalhos para os painéis. |
+| **Detalhe do alerta** | <img src="assets/screenshots/05_alerta.png" alt="Detalhe do alerta" width="220"> | Evidências, nível de confiança, limitações, ação sugerida e mapa. |
+| **Registrar alerta** | <img src="assets/screenshots/06_registrar.png" alt="Registrar alerta" width="220"> | GPS sugere a região e o clima do momento sugere o tipo; relato anônimo. |
+| **Painel Clima** | <img src="assets/screenshots/07_painel_clima.png" alt="Painel Clima" width="220"> <img src="assets/screenshots/07b_painel_clima.png" alt="Painel Clima" width="220"> | Chuva, temperatura, umidade e vento com 30 dias de histórico, tendência e mapa. |
+| **Painel Recursos** | <img src="assets/screenshots/08_painel_recursos.png" alt="Painel Recursos" width="220"> <img src="assets/screenshots/08b_painel_recursos.png" alt="Painel Recursos" width="220"> | Água e energia, litros por habitante, tendência e alertas de desperdício. |
+| **Painel Serviços** | <img src="assets/screenshots/09_painel_servicos.png" alt="Painel Serviços" width="220"> <img src="assets/screenshots/09b_painel_servicos.png" alt="Painel Serviços" width="220"> | Relatos por região e tipo, com filtros, mapa e benefício social. |
+| **Detalhe do indicador** | <img src="assets/screenshots/10_indicador.png" alt="Detalhe do indicador" width="220"> <img src="assets/screenshots/10b_indicador.png" alt="Detalhe do indicador" width="220"> | Série de 30 dias, como a tendência é calculada e quando não confiar. |
+| **Mapa** | <img src="assets/screenshots/11_mapa.png" alt="Mapa" width="220"> | Marcadores coloridos por prioridade; o toque abre o alerta. |
+| **Histórico** | <img src="assets/screenshots/12_historico.png" alt="Histórico" width="220"> | Todos os alertas, com filtro por região e tipo. |
+| **Perfil** | <img src="assets/screenshots/13_perfil.png" alt="Perfil" width="220"> | Relatos registrados, datas de consentimento, sair e excluir conta. |
+| **Configurações** | <img src="assets/screenshots/14_configuracoes.png" alt="Configurações" width="220"> <img src="assets/screenshots/14b_configuracoes.png" alt="Configurações" width="220"> | Tema, tamanho do texto, fonte dos dados, opções de teste e privacidade. |
+| **Limiares de alerta** | <img src="assets/screenshots/15_limiares.png" alt="Limiares de alerta" width="220"> <img src="assets/screenshots/15b_limiares.png" alt="Limiares de alerta" width="220"> | Formulário validado que recalcula os alertas na hora. |
+| **Como os alertas são gerados** | <img src="assets/screenshots/16_metodo.png" alt="Como os alertas são gerados" width="220"> <img src="assets/screenshots/16b_metodo.png" alt="Como os alertas são gerados" width="220"> | Método, confiança, métricas, limitações, vieses e quando não confiar. |
+| **Tela larga (tablet)** | <img src="assets/screenshots/17_tablet.png" alt="Tela larga (tablet)" width="220"> | Conteúdo centralizado e grade de 3 colunas: layout testado em 2 tamanhos. |
+| **Alto contraste** | <img src="assets/screenshots/18_alto_contraste.png" alt="Alto contraste" width="220"> | Tema de alto contraste para baixa visão. |
 
 ## 4. Funcionalidades
 
