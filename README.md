@@ -175,7 +175,7 @@ Sem chaves de API nem variáveis de ambiente: todas as fontes são públicas e s
 Pré-requisitos: Flutter 3.27 ou superior, Android Studio com SDK, emulador ou aparelho Android.
 
 ```bash
-git clone https://github.com/[USUARIO]/sentinela.git
+git clone https://github.com/BsWasKilled/Sentinela
 cd sentinela
 flutter pub get
 flutter run
